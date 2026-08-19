@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="body box">
+
+        <h1 id="contenttext">This is my first Js code</h1>
+        <button class="btn" id="contentbutton" type="button">Click Me!</button>
+
+
+
+        <script>
+            let text = document.getElementById("contenttext");
+
+            text.textContent = "This will not be my last";
+            console.log(text);
+
+            let button = document.getElementById("contentbutton");
+            button.textContent = "Pls leave me alone!!!"
+
+            console.log(button);
+
+        </script>
+    </div>
+
+</body>
+</html>
